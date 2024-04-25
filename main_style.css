@@ -1,0 +1,61 @@
+.topnav {
+  
+  font-family: Oswald ;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #71C9CE;
+  color: white;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #71C9CE;
+  color: white;
+}
+.content{
+  margin-top: 150px;
+  text-align: center;
+  font-family: Roboto Slab ;
+  
+  
+}
+.about_content{
+  font-family: Open Sans;
+  font-size: 10px;
+  padding: 40px;
+  text-align: justify ;
+}
+.about_us{
+  text-align: center;
+  font-family: Roboto Slab ;
+}
+button{
+  border-width: 3px;
+  color: antiquewhite;
+  border-radius: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.5rem;
+  font-family: oswald;
+}
+body{
+  background-image: url('white\ back.jpg'); /* Replace 'background.jpg' with your image file path */
+    background-size:100%; /* This ensures the image covers the entire background */
+   background: position 100%; /* This centers the image */
+  
+}
